@@ -1,0 +1,18 @@
+version: 1
+
+sources:
+  - name: snowflake
+    database: dbt_database
+    schema: dbt_schema
+    tables: 
+      - name : b2b_invoices
+        columns: 
+          - name: customer_id
+            quote: true 
+            tests:
+              - not_null 
+          - name: order_date
+            quote: true
+            tests:
+              - not_null 
+
