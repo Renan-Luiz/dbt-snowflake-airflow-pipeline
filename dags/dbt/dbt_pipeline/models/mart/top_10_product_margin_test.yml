@@ -1,0 +1,9 @@
+models:
+  - name: top_10_product_margin
+    columns: 
+      - name: total_margin_ratio
+        tests:
+          - not_null
+      - name: product 
+        tests:
+          - unique
