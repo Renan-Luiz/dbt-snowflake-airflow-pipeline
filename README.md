@@ -143,7 +143,7 @@ CREATE SCHEMA IF NOT EXISTS dbt_db.dbt_schema;
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/dbt-snowflake-airflow-pipeline.git
+git clone https://github.com/Renan-Luiz/dbt-snowflake-airflow-pipeline.git
 cd dbt-snowflake-airflow-pipeline
 ```
 
